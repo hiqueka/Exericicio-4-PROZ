@@ -1,6 +1,6 @@
 vetor2 = [1,2,3,4,5]
 soma=0
 for i in range(len(vetor2)):
-   ele = ele + vetor2[i]
-media = ele / 5
+   soma = soma + vetor2[i]
+media = soma / 5
 print(media)
