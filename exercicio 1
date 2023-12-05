@@ -1,6 +1,8 @@
-vetor2 = [1,2,3,4,5]
-soma=0
-for i in range(len(vetor2)):
-   soma = soma + vetor2[i]
-media = soma / 5
-print(media)
+vetor1 = [1, 2, 3, 4, 5]
+vetor2 = [1, 2, 3, 4, 5]
+vetor3 = []
+
+for i in range(len(vetor1)):
+    vetor3.append(vetor1[i] + vetor2[i])
+
+print(vetor3)
