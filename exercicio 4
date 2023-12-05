@@ -1,0 +1,3 @@
+vetor2 = [5,4,3,2,1]
+vetor2.sort()
+print(vetor2)
