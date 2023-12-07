@@ -1,0 +1,14 @@
+cont = 0
+contnum = 0
+lista = []
+num2 = 0
+while cont<3:
+    num = int(input("Digite um numero para adicionar"))
+    cont += 1
+    lista.append(num)
+    num2 = set([i for i in lista if lista.count(i) > 1])
+for num in num2:
+        print(f"O número {num} se repetiu {lista.count(num)} vezes")
+        print(f"A lista final é {lista}")
+else:
+      print("Nenhum se repete")
